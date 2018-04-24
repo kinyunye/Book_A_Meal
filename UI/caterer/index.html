@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+      <title>Book a Meal</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <script type="text/javascript" src="javascript/app.js"></script>
+   <style type="text/css">
+     .background-image-1, .background-image-2 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.background-image-1 {
+  background-image: url("/images/one.jpg");
+  min-height: 60%;
+}
+
+.background-image-2 {
+  background-image: url("images/fried-rice.jpg");
+  min-height: 60%;
+}
+   </style>
+   <body>
+      <ul class="navbar">
+         <div class="head1">
+            <h2><span class="b">E</span>xquiste<span class="b"> M</span>eals</h2>
+         </div>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="orders.html">Orders Made</a></li>
+         <li style="float:right"><a class="btn" href="/bookameal/index.html">Log Out</a></li>
+      </ul>
+      <article class="article">
+      <h3 id="today"></h3>
+      <table class="meals">
+         <tr>
+            <th>Order No</th>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Meal</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Status</th>
+            <th>Action</th>
+         </tr>
+         <tr>
+            <td>EM/001</td>
+            <td>31/03/2018 12:34 PM</td>
+            <td>Bruce Wayne</td>
+            <td>brucewayne@gmail.com</td>
+            <td>Coconut Rice</td>
+            <td>Kshs. 300</td>
+            <td>1</td>
+            <td>Processing</td>
+            <td><button class="button_cart" onclick="orders()">Approve</button></td>
+         </tr>
+         <tr>
+            <td>EM/011</td>
+            <td>01/04/2018 13:12 PM</td>
+            <td>Bruce Wayne</td>
+            <td>brucewayne@gmail.com</td>
+            <td>Beef Stew and Rice</td>
+            <td>Kshs. 300</td>
+            <td>2</td>
+            <td>Processing</td>
+            <td><button class="button_cart" onclick="orders()">Approve</button></td>
+         </tr>
+         <tr>
+            <td>EM/021</td>
+            <td>02/04/2018 11:12 AM</td>
+            <td>Bruce Wayne</td>
+            <td>brucewayne@gmail.com</td>
+            <td>Chicken Burger</td>
+            <td>Kshs. 150</td>
+            <td>1</td>
+            <td>Processing</td>
+            <td><button class="button_cart" onclick="orders()">Approve</button></td>
+         </tr>
+         <tr>
+            <td>EM/043</td>
+            <td>03/04/2018 12:56 PM</td>
+            <td>Bruce Wayne</td>
+            <td>brucewayne@gmail.com</td>
+            <td>Fish and Fried Rice</td>
+            <td>Kshs. 300</td>
+            <td>2</td>
+            <td>Processing</td>
+            <td><button class="button_cart" onclick="orders()">Approve</button></td>
+         </tr>
+         <tr>
+            <td>EM/049</td>
+            <td>04/04/2018 13:56 PM</td>
+            <td>Bruce Wayne</td>
+            <td>brucewayne@gmail.com</td>
+            <td>Ugali Tilapia</td>
+            <td>Kshs. 300</td>
+            <td>1</td>
+            <td>Processing</td>
+            <td><button class="button_cart" onclick="orders()">Approve</button></td>
+         </tr>
+         <tr>
+            <td>EM/054</td>
+            <td>05/04/2018 13:56 PM</td>
+            <td>Bruce Wayne</td>
+            <td>brucewayne@gmail.com</td>
+            <td>Matoke</td>
+            <td>Kshs. 250</td>
+            <td> 1
+            </td>
+            <td>Processing</td>
+            <td><button class="button_cart" onclick="orders()">Approve</button></td>
+         </tr>
+      </table>
+      <footer>
+         Copyright &copy; bookameal
+         <div class="sub_footer">
+         </div>
+      </footer>
+   </body>
+</html>
